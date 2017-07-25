@@ -1,5 +1,6 @@
+library(shiny)
 
-ui <- shinyUI(navbarPage("Clustering", 
+shinyUI(navbarPage("Clustering", 
                          # A developper
                          tabPanel("Transformation Pre-Analysis"), 
                          # A developper
